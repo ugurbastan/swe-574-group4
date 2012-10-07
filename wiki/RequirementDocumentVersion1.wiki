@@ -1,0 +1,327 @@
+#labels requirementdocument,version1
+*2.1. Requirement 1. Admin Page Main User Interface and Functions*
+	
+
+Admin Page Operations are listed below:
+
+1-	Insert/Update Category
+
+  a.	Insert/Update Disability (Person)
+
+  b.	Insert/Update Disability (Architecture)
+
+2-	Retrieve Report
+
+  a.	Statistical reports according to
+
+    i.	Disability type
+
+    ii.	Disability (person)
+
+    iii.	Location
+
+3-	Update User
+
+  a.	Password issues
+
+  b.	User type update
+
+4-	Insert or Update User types
+  a.	Enter new user type
+
+    i.	Admin
+
+    ii.	Normal User
+
+5-	Update Authorization of Users
+
+  a.	Ban or Activate users
+
+  b.	Make admin some users
+
+6-	List and Update Entries
+
+  a.	Update or delete entries
+
+
+All functions above are links to related web pages.
+
+
+*2.2. Requirement 2. Function 1: Insert Category*
+
+Admin can enter new category according to disability or obstacle. First he chooses whether new category belongs to disability or obstacle then write the name of the category into the textbox.  If picture or note/definition available, uploads them.
+
+•	Category type (required)
+
+•	Category name (required)
+
+•	Disability picture
+
+•	Disability definition
+
+
+*2.3. Requirement 3. Function 2: Update Category*
+
+
+Categories can be updated after entered. Pictures or definitions can be added or wrong category can be deleted.
+
+•	Category type (comes filled)
+
+•	Category name (comes filled)
+
+•	Disability picture
+
+•	Disability definition
+
+*2.4. Requirement 4. Function 3: Retrieve Report*
+
+Report page helps admins to report database. It should have following filters:
+
+
+-	Disability type
+
+-	Disability (people)
+
+-	Location
+
+  o	Country
+
+  o	City
+
+  o	District
+
+  o	Street
+
+-	Solved or Unsolved
+
+
+It should return the number of violations according to filter. This report can be downloaded as excel. Moreover when user clicks the number it should show the violations or users. For example if you are looking for active violations in Hisarustu for blind people you should filter like this:
+
+
+-	Visually impaired
+
+-	Turkey / Sarıyer / Hisarustu 
+
+-	Unsolved
+
+
+Then it will return a number for instance 5. This number is also a link and redirects you to a page where you can view the violations.
+
+
+*2.5. Requirement 5. Function 4: Insert or Update User*
+
+
+Admin can search for user and update his information such as:
+
+
+-	Username
+
+-	Password
+
+-	Mail address
+
+-	User type
+
+-	Active
+
+
+Or he can enter new user type filling the information below:
+
+
+-	Username
+
+-	Password
+
+-	Mail address
+
+-	User type
+
+-	Active  (Banned or Active)
+
+
+*2.6. Requirement 6. Function 5: Insert or Update User Types*
+
+
+At the beginning we have two user types:
+
+
+-	Admin
+
+-	Users
+
+  o	Registered
+
+  o	Not registered
+
+-	Editors
+
+  o	Checks entries
+
+
+In the long time we may need to add new user types or update user types. For example we may need to add more admin to check comments or violations written or inserted. Or we may need to add new user type such as authorized user, a municipality employee. 
+
+
+When admin wants to update user type, he can change the name and authority of the user. 
+
+
+*2.7. Requirement 7. Function 6: Update Authorization of User Types / Users*
+
+
+
+In this part, admin can update authorizations for users. Authorizations are listed below:
+
+
+•	Insert new user
+
+•	Update user
+
+•	Delete user
+
+•	Insert category
+
+•	Delete category
+
+•	Update category
+
+•	Insert user type
+
+•	Delete user type
+
+•	Update user type
+
+•	Insert violations
+
+•	Update violations
+
+•	Delete violations
+
+•	Insert comment
+
+•	Update comment
+
+•	Delete comment
+
+•	Report violation
+
+•	Report comment
+
+•	Ban user
+
+•	Activate user
+
+•	List user
+
+•	Search user
+
+•	List report
+
+•	Download report
+
+
+For each user types all functions can be active or not. Admin will determine it. For example user cannot update or delete comment but editors can. 
+
+
+*2.8. Requirement 8. Function 7: List and Update Entries*
+
+
+Admin or editors may need to remove violations or comments. Some users may enter meaningless or wrong violations and some users may write comments including slangs. These entries should be deleted immediately. That’s why editors should list reported violations or comments. Then delete it and determine if user needs to be banned.
+Admin or editor can search for specific violations using filters according to username or location or both.
+
+
+•	Username
+
+•	Location
+
+
+Moreover, they can list reported violations and comments. This list will be shown separately. Editors must read all reported incidents and decide the next operation. Next operations listed below:
+
+
+•	Delete violation and ban user
+
+•	Delete violation and do not ban user
+
+•	Delete comment and ban user
+
+•	Delete comment and do not ban user
+
+•	Update violation
+
+•	Update comment
+
+
+*2.9. Requirement 9. Function 8: Reporting* (Bunun yerini değiştirsek iyi olur başlarda bir yer daha iyi gibi en azından adminden once olmalı)
+
+	
+Users can report violation count and what type of violations exists in the selected district. When user clicks “report” button, a form comes up. It asks location and disability type. User should enter at least the city name. He can also enter more specific address. 
+
+
+•	Disability type 
+
+•	Disability (person)
+
+•	Location
+
+  o	City 
+
+  o	District
+
+  o	Street
+
+•	Severity
+
+•	Solved / Unsolved
+
+
+Only required info is city. If user do not enter disability type or disability, then system will give numbers for each disability type or disable person type exists in the system.
+Example report for Istanbul (only city selected):
+
+
+|| *Disability Type (Person)* || *DisabilityType Street* || *Severity* || *Solved Count* ||
+|| Visually Impaired || Traffic Light || Minor || 3 ||
+|| Visually Impaired || Pavement || Critical || 2 ||
+|| Visually Impaired || Traffic Light || Critical || 1 ||
+
+
+*2.10. Requirement 10. Development Environment*
+
+
+We have two development environments. For web PHP programming language will be used, for mobile we will use Java. 
+
+Web: PHP için gerekli environmentları dolduralım  IDE vs
+
+
+-	IDE: 
+
+-	Programming language: PHP
+
+-	Operation System: Windows
+
+
+Mobile:
+
+-	IDE: Eclipse
+
+-	Programming language: Java
+
+-	Operation System: Android (min version 2.3)
+
+-	Google maps API for location determination
+
+
+*2.11. Requirement 11. Security*
+
+
+All client-server operations through the Internet will be through SSL to provide security. On mobile security is not our first concern. Our admins and editors will check reported violations and comments. 
+
+
+*2.12. Requirement 12. Logging*
+
+
+Actions of all users such as violation entry, login, logout, registration, comment will be logged. Moreover, admin or other user types operations will also logged for security reasons.
+
+
+*3. Testing*
+
+
+This part will be revised later.
+
