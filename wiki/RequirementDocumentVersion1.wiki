@@ -276,7 +276,7 @@ Only required info is city. If user do not enter disability type or disability, 
 Example report for Istanbul (only city selected):
 
 
-|| *Disability Type (Person)* || *DisabilityType Street* || *Severity* || *Solved Count* ||
+|| *Disability Type (Person)* || *Disability Type Street* || *Severity* || *Solved Count* ||
 || Visually Impaired || Traffic Light || Minor || 3 ||
 || Visually Impaired || Pavement || Critical || 2 ||
 || Visually Impaired || Traffic Light || Critical || 1 ||
@@ -324,4 +324,3 @@ Actions of all users such as violation entry, login, logout, registration, comme
 
 
 This part will be revised later.
-
