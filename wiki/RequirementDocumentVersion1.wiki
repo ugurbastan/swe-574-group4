@@ -342,6 +342,74 @@ The user shoul d be able to express that she has witnessed the violation or reso
 
 The violation should be marked as resolved by any user when it is solved.  The user must  add a photo of the violation to mark it as solved.  
 
+
+*2.18. Requirement 18. Function 14: Defining Instance*
+
+
+The attributes defining an instance are listed below:
+
+1-	Instance Type
+
+  a.	Disability Type (Person): Each instance will contain at least one type of disability that it will affect. For instances that will affect all people regardless of their disability or whether they possess a disability; there will be an option named "All". The disability type list will open for viewing and editing for all users.
+
+  b.	Obstacle Type (Architecture): Each instance will contain at least one type of obstacle. The obstacle type list will open for viewing and editing for all users.
+
+2-	Altitude/Longitude: Each instance will contain a location defined by the altitude and longitude of the instance. The obstacle type will be open for viewing for all users. It can be edited by administrators.
+
+3-	Picture: All users will be enabled to add picture(s) to the instance. All users will be enabled to view the added pictures. Administrators will be enabled to remove all the pictures. Registered users will be enabled to remove the pictures they added.
+
+4-	Comments: All users will be enabled to ad comment(s) to the instance. All users will be enabled to view the comments. Administrators will be enabled to delete comments. Registered users will be enabled to edit or delete the comments they added.
+
+5-	Description: Each instance.The user who inserted the instance will be enabled to add a description to the instance. Administrators will be enabled to edit the description of the instance. Registered users will be enabled to edit the description of the instances that they have inserted. All users will be able to view the description.
+
+6-	Severity Rating: There will be a online rating system based on user votes rating the severity of the instance. The rating result will fall under the following three rates:
+
+  a.	Mild
+  b.	Severe
+  c.	Very severe
+
+7-	Status: Each instance can have one of the following 3 statūs:
+
+  a.	Unresolved: All instances will have this status upon insertion until the solution or invalidation of the instance.
+  b.	Resolved: The instances that have been solved (i.e. all the associated disabilities are removed) will have this status.
+
+
+*2.19. Requirement 19. Function 15: Listing*
+
+
+The instances will be listed and displayed on a map or a list or both (according to user preference).
+
+Any active (unremoved)instance can be selected and its details can be viewed.
+
+The instances displayed on the map will be colored according to obstacle categories.
+
+The listing criterias are listed below:
+
+1- Disability Category: Users will be able to select certain type(s) of disabilities that the listed instances will affect.
+
+2- Obstacle Category: Users able to select certain type(s) of obtacles that the listed instances will possess.
+
+3- Location:
+  a- Current Position: Mobile users will be able to search the instances within a selected physical proximity to the current position that is obtained from the geolocation of the mobile device.
+  b- Selected posisition: User will be able to search the instances within a selected physical proximity to a selected position. The selection of the position will be made via 2 options:
+   i- By selecting city, district, street.
+   ii- By pinpointing from map.
+
+4- Label: The registered users will be able to list the instrances that they have labeled.  
+
+*2.20. Requirement 20. Function 16: Editing Instance*
+
+
+The registered users will be able to view and edit the following attributes of the instances that they insterted:
+1- Disability Type
+2- Obstacle Type
+3- Description
+
+*2.21. Requirement 21. Function 17: Removing Instance*
+
+
+The registered users will be able access to remove the instances that they insterted.
+
 *3. Testing*
 
 
