@@ -319,6 +319,28 @@ All client-server operations through the Internet will be through SSL to provide
 
 Actions of all users such as violation entry, login, logout, registration, comment will be logged. Moreover, admin or other user types operations will also logged for security reasons.
 
+*2.13. Requirement 13. Function 9 Adding Comment*
+
+
+Anonymous users (guests)  and  users should be able to add comments about  accessibility violations. 
+
+*2.14. Requirement 14. Function 10 Report Abused Comment*
+
+The system should allow users to report abused comments with “Report Inconvenent Comment”  button.  The users who entered these comment should be banned by the system.
+
+*2.15. Requirement 15. Function 11 Follow Violations*
+
+
+The System should allow users and guests to follow the violations. The user who is following a violation should be informed about the actions related with the violation.
+
+*2.16. Requirement 16. Function 12 Witnessing Violation / Resolution of Violation*
+
+The user shoul d be able to express that she has witnessed the violation or resolution of the violation.
+
+*2.17. Requirement 17. Function 13 Resolving Violation*
+
+
+The violation should be marked as resolved by any user when it is solved.  The user must  add a photo of the violation to mark it as solved.  
 
 *3. Testing*
 
