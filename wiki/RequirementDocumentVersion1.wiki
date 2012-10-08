@@ -11,6 +11,11 @@
 
   d. People with Weelchair
 
+2-      Disabilities
+
+  a. Pavement Platform
+  b. Architectural Barriers
+
 *2.1. Requirement 1. Admin Page Main User Interface and Functions*
 	
 
