@@ -4,8 +4,11 @@
 1-      Disability Types
 
   a. People with Prothesis
+
   b. Visual Defect
+
   c. People with Walking Stick
+
   d. People with WeelChair
 
 *2.1. Requirement 1. Admin Page Main User Interface and Functions*
