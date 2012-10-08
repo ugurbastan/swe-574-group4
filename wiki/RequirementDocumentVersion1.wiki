@@ -14,7 +14,25 @@
 2-      Disabilities
 
   a. Pavement Platform
+
   b. Architectural Barriers
+
+  c. Grid & Blank Spaces
+
+  d. Car Park Spaces
+
+  e. City Furnitures
+
+  f. Building Access
+
+  g. Building Elements
+
+  h. Enlightening
+
+  i. Color Compliance
+
+  j. Key & Plugins
+
 
 *2.1. Requirement 1. Admin Page Main User Interface and Functions*
 	
