@@ -1,5 +1,5 @@
 #labels requirementdocument,version1
-*1.1. Requirement Categories
+*1.1. Requirement 1. Categories
 
 1-      Disability Types
 
@@ -33,6 +33,39 @@
 
   j. Key & Plugins
 
+*1.2. Requirement 2. Main Functions
+
+1- User Form
+ 
+  a. Disability Type
+
+  b. Age
+
+  c. Gender
+
+  d. Registration (Mobile + Web)
+
+2- New Instance / Violance
+
+  a. Current Position (Mobile)
+
+  b. City, Province, Town
+
+3- Disability
+
+  a. Type
+
+  b. Altitude
+
+  c. Longitude
+
+  d. İmage
+
+  e. Description
+
+  f. Ratings
+
+  g. Result
 
 *2.1. Requirement 1. Admin Page Main User Interface and Functions*
 	
