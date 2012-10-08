@@ -82,7 +82,7 @@ Admin Page Operations are listed below:
 
 1-	Insert/Update Category
 
-  a.	Insert/Update Disability (Person)
+  a.	Insert/Update Disability
 
   b.	Insert/Update Accessibility Violation
 
@@ -92,7 +92,7 @@ Admin Page Operations are listed below:
 
     i.	Accessibility Violation type
 
-    ii.	Disability (person)
+    ii.	Disability
 
     iii.	Location
 
@@ -333,7 +333,7 @@ Users can report violation count and what type of violations exists in the selec
 
 •	Accessibility violation type 
 
-•	Disability (person)
+•	Disability
 
 •	Location
 
@@ -352,7 +352,7 @@ Only required info is city. If user do not enter disability type or disability, 
 Example report for Istanbul (only city selected):
 
 
-|| *Disability Type (Person)* || *Accessibility Violation Type* || *Severity* || *Solved Count* ||
+|| *Disability Type* || *Accessibility Violation Type* || *Severity* || *Solved Count* ||
 || Visually Impaired || Traffic Light || Minor || 3 ||
 || Visually Impaired || Pavement || Critical || 2 ||
 || Visually Impaired || Traffic Light || Critical || 1 ||
@@ -426,7 +426,7 @@ The attributes defining an instance are listed below:
 
 1-	Instance Type
 
-  a.	Disability Type (Person): Each instance will contain at least one type of disability that it will affect. For instances that will affect all people regardless of their disability or whether they possess a disability; there will be an option named "All". The disability type list will open for viewing and editing for all users.
+  a.	Disability Type : Each instance will contain at least one type of disability that it will affect. For instances that will affect all people regardless of their disability or whether they possess a disability; there will be an option named "All". The disability type list will open for viewing and editing for all users.
 
   b.	Accessibility Violation Type (Architecture): Each instance will contain at least one type of obstacle. The obstacle type list will open for viewing and editing for all users.
 
