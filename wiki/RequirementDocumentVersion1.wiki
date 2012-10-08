@@ -11,7 +11,7 @@
 
   d. People with Weelchair
 
-2-      Disabilities
+2-      Accessibility Violation Types
 
   a. Pavement Platform
 
@@ -45,7 +45,7 @@
 
   d. Registration (Mobile + Web)
 
-2- New Instance / Violance
+2- New Accessibility Violation 
 
   a. Current Position (Mobile)
 
@@ -84,13 +84,13 @@ Admin Page Operations are listed below:
 
   a.	Insert/Update Disability (Person)
 
-  b.	Insert/Update Disability (Architecture)
+  b.	Insert/Update Accessibility Violation
 
 2-	Retrieve Report
 
   a.	Statistical reports according to
 
-    i.	Disability type
+    i.	Accessibility Violation type
 
     ii.	Disability (person)
 
@@ -131,9 +131,9 @@ Admin can enter new category according to disability or obstacle. First he choos
 
 •	Category name (required)
 
-•	Disability picture
+•	Accessibility violation picture
 
-•	Disability definition
+•	Accessibility violation definition
 
 
 *2.3. Requirement 3. Function 2: Update Category*
@@ -145,16 +145,16 @@ Categories can be updated after entered. Pictures or definitions can be added or
 
 •	Category name (comes filled)
 
-•	Disability picture
+•	Accessibility violation picture
 
-•	Disability definition
+•	Accessibility violation definition
 
 *2.4. Requirement 4. Function 3: Retrieve Report*
 
 Report page helps admins to report database. It should have following filters:
 
 
--	Disability type
+-	Accessibility Violation Type
 
 -	Disability (people)
 
@@ -331,7 +331,7 @@ Moreover, they can list reported violations and comments. This list will be show
 Users can report violation count and what type of violations exists in the selected district. When user clicks “report” button, a form comes up. It asks location and disability type. User should enter at least the city name. He can also enter more specific address. 
 
 
-•	Disability type 
+•	Accessibility violation type 
 
 •	Disability (person)
 
@@ -352,7 +352,7 @@ Only required info is city. If user do not enter disability type or disability, 
 Example report for Istanbul (only city selected):
 
 
-|| *Disability Type (Person)* || *Disability Type Street* || *Severity* || *Solved Count* ||
+|| *Disability Type (Person)* || *Accessibility Violation Type* || *Severity* || *Solved Count* ||
 || Visually Impaired || Traffic Light || Minor || 3 ||
 || Visually Impaired || Pavement || Critical || 2 ||
 || Visually Impaired || Traffic Light || Critical || 1 ||
@@ -363,7 +363,7 @@ Example report for Istanbul (only city selected):
 
 We have two development environments. For web PHP programming language will be used, for mobile we will use Java. 
 
-Web: PHP için gerekli environmentları dolduralım  IDE vs
+Web:
 
 
 -	IDE: 
@@ -428,7 +428,7 @@ The attributes defining an instance are listed below:
 
   a.	Disability Type (Person): Each instance will contain at least one type of disability that it will affect. For instances that will affect all people regardless of their disability or whether they possess a disability; there will be an option named "All". The disability type list will open for viewing and editing for all users.
 
-  b.	Obstacle Type (Architecture): Each instance will contain at least one type of obstacle. The obstacle type list will open for viewing and editing for all users.
+  b.	Accessibility Violation Type (Architecture): Each instance will contain at least one type of obstacle. The obstacle type list will open for viewing and editing for all users.
 
 2-	Altitude/Longitude: Each instance will contain a location defined by the altitude and longitude of the instance. The obstacle type will be open for viewing for all users. It can be edited by administrators.
 
@@ -463,7 +463,7 @@ The listing criterias are listed below:
 
 1- Disability Category: Users will be able to select certain type(s) of disabilities that the listed instances will affect.
 
-2- Obstacle Category: Users able to select certain type(s) of obtacles that the listed instances will possess.
+2- Accessibility Violation Category: Users able to select certain type(s) of obtacles that the listed instances will possess.
 
 3- Location:
   a- Current Position: Mobile users will be able to search the instances within a selected physical proximity to the current position that is obtained from the geolocation of the mobile device.
