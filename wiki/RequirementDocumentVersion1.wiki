@@ -9,7 +9,7 @@
 
   c. People with Walking Stick
 
-  d. People with WeelChair
+  d. People with Weelchair
 
 *2.1. Requirement 1. Admin Page Main User Interface and Functions*
 	
