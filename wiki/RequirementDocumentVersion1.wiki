@@ -67,6 +67,14 @@
 
   g. Result
 
+4- Listings
+
+  a. Current Position (Mobile + Web)
+
+  b. User Label List (Mobile)
+
+5- Comments
+
 *2.1. Requirement 1. Admin Page Main User Interface and Functions*
 	
 
