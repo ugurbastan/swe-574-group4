@@ -1,10 +1,11 @@
 #labels requirementdocument,version1
-
 *1. Introduction*
 
 The purpose of the software project is to develop a web application and mobile application with an object oriented programming language such as Java and script language such as PHP, in Windows and MySQL environment, to do mainly the following;
 
 1. Users will enter accessibility violation using mobile application or web site. 
+
+
 2. He enters required information such as location and picture of violation. Other users may enter comment or update violation.
 
 The web application functions and user interface details are given in the following sections of this document.
