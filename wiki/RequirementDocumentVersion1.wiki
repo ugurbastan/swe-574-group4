@@ -1,5 +1,18 @@
 #labels requirementdocument,version1
-*1.1. Requirement 1. Categories
+
+*1. Introduction*
+
+The purpose of the software project is to develop a web application and mobile application with an object oriented programming language such as Java and script language such as PHP, in Windows and MySQL environment, to do mainly the following;
+
+1. Users will enter accessibility violation using mobile application or web site. 
+2. He enters required information such as location and picture of violation. Other users may enter comment or update violation.
+
+The web application functions and user interface details are given in the following sections of this document.
+
+*1.1. Main Categories*
+
+  We have two important types that we use in the project mostly; disability type and accessibility violation types. Below we listed important types;
+
 
 1-      Disability Types
 
@@ -33,7 +46,10 @@
 
   j. Key & Plugins
 
-*1.2. Requirement 2. Main Functions
+
+*2. Requirements*
+
+*2.1. Requirement 1 Function 1. Main User Interface Functions
 
 1- User Form
  
@@ -75,7 +91,7 @@
 
 5- Comments
 
-*2.1. Requirement 1. Admin Page Main User Interface and Functions*
+*2.2. Requirement 2 Function 2. Admin Page Main User Interface and Functions*
 	
 
 Admin Page Operations are listed below:
@@ -123,7 +139,7 @@ Admin Page Operations are listed below:
 All functions above are links to related web pages.
 
 
-*2.2. Requirement 2. Function 1: Insert Category*
+*2.3. Requirement 3. Function 3: Insert Category*
 
 Admin can enter new category according to disability or obstacle. First he chooses whether new category belongs to disability or obstacle then write the name of the category into the textbox.  If picture or note/definition available, uploads them.
 
@@ -136,7 +152,7 @@ Admin can enter new category according to disability or obstacle. First he choos
 •	Accessibility violation definition
 
 
-*2.3. Requirement 3. Function 2: Update Category*
+*2.4. Requirement 4. Function 4: Update Category*
 
 
 Categories can be updated after entered. Pictures or definitions can be added or wrong category can be deleted.
@@ -149,7 +165,7 @@ Categories can be updated after entered. Pictures or definitions can be added or
 
 •	Accessibility violation definition
 
-*2.4. Requirement 4. Function 3: Retrieve Report*
+*2.5. Requirement 5. Function 5: Retrieve Report*
 
 Report page helps admins to report database. It should have following filters:
 
@@ -184,7 +200,7 @@ It should return the number of violations according to filter. This report can b
 Then it will return a number for instance 5. This number is also a link and redirects you to a page where you can view the violations.
 
 
-*2.5. Requirement 5. Function 4: Insert or Update User*
+*2.6. Requirement 6. Function 6: Insert or Update User*
 
 
 Admin can search for user and update his information such as:
@@ -215,7 +231,7 @@ Or he can enter new user type filling the information below:
 -	Active  (Banned or Active)
 
 
-*2.6. Requirement 6. Function 5: Insert or Update User Types*
+*2.7. Requirement 7. Function 7: Insert or Update User Types*
 
 
 At the beginning we have two user types:
@@ -240,7 +256,7 @@ In the long time we may need to add new user types or update user types. For exa
 When admin wants to update user type, he can change the name and authority of the user. 
 
 
-*2.7. Requirement 7. Function 6: Update Authorization of User Types / Users*
+*2.8. Requirement 8. Function 8: Update Authorization of User Types / Users*
 
 
 
@@ -297,7 +313,7 @@ In this part, admin can update authorizations for users. Authorizations are list
 For each user types all functions can be active or not. Admin will determine it. For example user cannot update or delete comment but editors can. 
 
 
-*2.8. Requirement 8. Function 7: List and Update Entries*
+*2.9. Requirement 9. Function 9: List and Update Entries*
 
 
 Admin or editors may need to remove violations or comments. Some users may enter meaningless or wrong violations and some users may write comments including slangs. These entries should be deleted immediately. That’s why editors should list reported violations or comments. Then delete it and determine if user needs to be banned.
@@ -325,7 +341,7 @@ Moreover, they can list reported violations and comments. This list will be show
 •	Update comment
 
 
-*2.9. Requirement 9. Function 8: Reporting* (Bunun yerini değiştirsek iyi olur başlarda bir yer daha iyi gibi en azından adminden once olmalı)
+*2.10. Requirement 10. Function 10: Reporting* (Bunun yerini değiştirsek iyi olur başlarda bir yer daha iyi gibi en azından adminden once olmalı)
 
 	
 Users can report violation count and what type of violations exists in the selected district. When user clicks “report” button, a form comes up. It asks location and disability type. User should enter at least the city name. He can also enter more specific address. 
@@ -358,68 +374,33 @@ Example report for Istanbul (only city selected):
 || Visually Impaired || Traffic Light || Critical || 1 ||
 
 
-*2.10. Requirement 10. Development Environment*
 
 
-We have two development environments. For web PHP programming language will be used, for mobile we will use Java. 
-
-Web:
-
-
--	IDE: 
-
--	Programming language: PHP
-
--	Operation System: Windows
-
-
-Mobile:
-
--	IDE: Eclipse
-
--	Programming language: Java
-
--	Operation System: Android (min version 2.3)
-
--	Google maps API for location determination
-
-
-*2.11. Requirement 11. Security*
-
-
-All client-server operations through the Internet will be through SSL to provide security. On mobile security is not our first concern. Our admins and editors will check reported violations and comments. 
-
-
-*2.12. Requirement 12. Logging*
-
-
-Actions of all users such as violation entry, login, logout, registration, comment will be logged. Moreover, admin or other user types operations will also logged for security reasons.
-
-*2.13. Requirement 13. Function 9: Adding Comment*
+*2.11. Requirement 11. Function 11: Adding Comment*
 
 
 Anonymous users (guests)  and  users should be able to add comments about  accessibility violations. 
 
-*2.14. Requirement 14. Function 10: Report Abused Comment*
+*2.12. Requirement 12. Function 12: Report Abused Comment*
 
 The system should allow users to report abused comments with “Report Inconvenent Comment”  button.  The users who entered these comment should be banned by the system.
 
-*2.15. Requirement 15. Function 11: Follow Violations*
+*2.13. Requirement 13. Function 13: Follow Violations*
 
 
 The System should allow users and guests to follow the violations. The user who is following a violation should be informed about the actions related with the violation.
 
-*2.16. Requirement 16. Function 12: Witnessing Violation / Resolution of Violation*
+*2.14. Requirement 14. Function 14: Witnessing Violation / Resolution of Violation*
 
 The user shoul d be able to express that she has witnessed the violation or resolution of the violation.
 
-*2.17. Requirement 17. Function 13: Resolving Violation*
+*2.15. Requirement 15. Function 15: Resolving Violation*
 
 
 The violation should be marked as resolved by any user when it is solved.  The user must  add a photo of the violation to mark it as solved.  
 
 
-*2.18. Requirement 18. Function 14: Defining Instance*
+*2.16. Requirement 16. Function 16: Defining Instance*
 
 
 The attributes defining an instance are listed below:
@@ -450,7 +431,7 @@ The attributes defining an instance are listed below:
   b.	Resolved: The instances that have been solved (i.e. all the associated disabilities are removed) will have this status.
 
 
-*2.19. Requirement 19. Function 15: Listing*
+*2.17. Requirement 17. Function 17: Listing*
 
 
 The instances will be listed and displayed on a map or a list or both (according to user preference).
@@ -473,7 +454,7 @@ The listing criterias are listed below:
 
 4- Label: The registered users will be able to list the instrances that they have labeled.  
 
-*2.20. Requirement 20. Function 16: Editing Instance*
+*2.18. Requirement 18. Function 18: Editing Instance*
 
 
 The registered users will be able to view and edit the following attributes of the instances that they insterted:
@@ -481,10 +462,48 @@ The registered users will be able to view and edit the following attributes of t
 2- Obstacle Type
 3- Description
 
-*2.21. Requirement 21. Function 17: Removing Instance*
+*2.19. Requirement 19. Function 19: Removing Instance*
 
 
 The registered users will be able access to remove the instances that they insterted.
+
+*2.20. Requirement 20. Development Environment*
+
+
+We have two development environments. For web PHP programming language will be used, for mobile we will use Java. 
+
+Web:
+
+
+-	IDE: 
+
+-	Programming language: PHP
+
+-	Operation System: Windows
+
+
+Mobile:
+
+-	IDE: Eclipse
+
+-	Programming language: Java
+
+-	Operation System: Android (min version 2.3)
+
+-	Google maps API for location determination
+
+
+*2.21. Requirement 21. Security*
+
+
+All client-server operations through the Internet will be through SSL to provide security. On mobile security is not our first concern. Our admins and editors will check reported violations and comments. 
+
+
+*2.22. Requirement 22. Logging*
+
+
+Actions of all users such as violation entry, login, logout, registration, comment will be logged. Moreover, admin or other user types operations will also logged for security reasons.
+
 
 *3. Testing*
 
