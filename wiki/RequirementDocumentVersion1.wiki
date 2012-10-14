@@ -15,7 +15,7 @@ The web application functions and user interface details are given in the follow
   We have two important types that we use in the project mostly; disability type and accessibility violation types. Below we listed important types;
 
 
-1-      Disability Types
+1-      Disability Categories
 
   a. People with Prothesis
 
@@ -25,7 +25,7 @@ The web application functions and user interface details are given in the follow
 
   d. People with Weelchair
 
-2-      Accessibility Violation Types
+2-      Accessibility Violation Categories
 
   a. Pavement Platform
 
