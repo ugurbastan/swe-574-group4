@@ -1,4 +1,8 @@
 #labels meetingnotes,meeting
+Meeting Location: Boğaziçi University North Kampus
+Time: 10.30 -16.30
+Members: All members attended
+
 *14 - 10 - 2012 Meeting Notes*
 
 
@@ -25,4 +29,3 @@
 11- Next meeting will be on 18th October.
 
 12- DSD Version 1 will be completed on 18th October.
-
