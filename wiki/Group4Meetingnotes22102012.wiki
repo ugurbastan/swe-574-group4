@@ -1,0 +1,19 @@
+#Notes of the meeting held on 22.10.2012
+
+= Introduction =
+
+The task of the project are specified and divided between resources. Also the scenarios are assigned to group members.
+
+
+= Details =
+
+==Tasks==
+*A-* DSD Low Level V2 29 October
+
+*B-* Version 1 30 November
+
+*C-* Version 2 4 Januray
+
+===Tasks of V1===
+*WEB*
+*_Admin Page_*
