@@ -1,0 +1,21 @@
+#Notes of meeting on 29-11-2012
+= Introduction =
+We met to check out project situation and decide if we can accomplish the first milestone on time,or should we change the milestone to a smaller one.
+
+
+= Details =
+
+We talk about remaining works. Some of these are important and should be done first for example correcting Database tables. The tasks on mobile part, on the first mile stone which we can finish until 03.12.2012 are ;
+Log in and registration screens;(Must)
+Add Av Violation screen,(Should)
+List Av (Possible)
+Search Av(May Be)
+
+
+= Result =
+We see that the tasks for the first mile stone can be accomplished this week, we didn't make the mile stone smaller.
+Emre and Hilal will study at home seperate and contact with each other while working. 
+Okan and Umit will meet on monday. 
+Okan will work on tables immediately.
+Emre will commit the project on SVN. 
+Hilal would prepare php(sql scripts).
