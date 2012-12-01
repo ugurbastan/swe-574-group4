@@ -6,10 +6,17 @@ We met to check out project situation and decide if we can accomplish the first 
 = Details =
 
 We talk about remaining works. Some of these are important and should be done first for example correcting Database tables. The tasks on mobile part, on the first mile stone which we can finish until 03.12.2012 are ;
-Log in and registration screens;(Must)
-Add Av Violation screen,(Should)
-List Av (Possible)
-Search Av(May Be)
+
+
+
+  a.	Log in and registration screens;(Must)
+ 
+  b.	Add Av Violation screen,(Should)
+
+  c.	List Av (Possible)
+
+  d.	Search Av(May Be) 
+
 
 
 = Result =
