@@ -22,7 +22,7 @@ We talk about remaining works. Some of these are important and should be done fi
 = Result =
 We see that the tasks for the first mile stone can be accomplished this week, we didn't make the mile stone smaller.
 Emre and Hilal will study at home seperate and contact with each other while working. 
-Okan and Umit will meet on monday. 
-Okan will work on tables immediately.
-Emre will commit the project on SVN. 
-Hilal would prepare php(sql scripts).
+Okan and Umit will meet on monday to do?. 
+Okan will work on tables especially the design of table er_post(which holds AVs).
+Emre will commit the latest version of project on SVN. 
+Hilal would prepare php(sql scripts) for AV inserting and AV listing.
