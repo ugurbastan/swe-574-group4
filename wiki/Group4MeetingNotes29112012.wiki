@@ -28,21 +28,14 @@ Hilal would prepare php(sql scripts) for AV inserting and AV listing.
 Okan and Ümit met on Sunday and determined tasks to do this week:
 
 Ümit
-1. To assign disability type to the user in register page.
-
-2. To revise themes and configurations. Translation improvement
-
-3. Removal of unnecessary fields from control panel.
-
-4. Deployment to server.
+  # To assign disability type to the user in register page.
+  # To revise themes and configurations. Translation improvement
+  # Removal of unnecessary fields from control panel.
+  # Deployment to server.
 
 Okan
-1. To add disability to register page
-
-2. To add disability to categories
-
-3. Removing encryption from password field.
-
-4. Theme arrangement.
-
-5. New disability table addition to database.
+  # To add disability to register page
+  # To add disability to categories
+  # Removing encryption from password field.
+  # Theme arrangement.
+  # New disability table addition to database.
