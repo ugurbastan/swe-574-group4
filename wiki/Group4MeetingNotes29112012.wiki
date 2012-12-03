@@ -29,12 +29,20 @@ Okan and Ümit met on Sunday and determined tasks to do this week:
 
 Ümit
 1. To assign disability type to the user in register page.
+
 2. To revise themes and configurations. Translation improvement
-3. Deployment to server.
+
+3. Removal of unnecessary fields from control panel.
+
+4. Deployment to server.
 
 Okan
 1. To add disability to register page
+
 2. To add disability to categories
+
 3. Removing encryption from password field.
+
 4. Theme arrangement.
+
 5. New disability table addition to database.
